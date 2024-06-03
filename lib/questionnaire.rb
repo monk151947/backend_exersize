@@ -21,7 +21,7 @@ def do_prompt(store)
     loop do
       puts QUESTIONS[question_key]
       print " Answer (Yes/No/Y/N): "
-      answer = gets.chomp.downcase
+      answer = $stdin.gets.chomp.downcase
       break if VALID_ANSWERS.include?(answer)
       puts "Invalid answer. Please enter Yes, No, Y, or N."
     end
