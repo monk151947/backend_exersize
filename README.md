@@ -2,10 +2,17 @@
 
 ## Usage
 
+
 ```sh
-bundle
-ruby questionnaire.rb
+chmod +x run_script.sh
+
 ```
+
+```sh
+ 
+ ./run_script.s
+ 
+ ```
 
 ## Goal
 
@@ -26,14 +33,3 @@ Store the collected answers are stored in the PStore database
 Retrieve and display the answers from the **PStore** and Calculate the Calculates the rating as 100 * number of yes answers / number of questions.
 
 To run this code run this command
-
-```sh
-chmod +x run_script.sh
-
-```
-
-```sh
- 
- ./run_script.s
- 
- ```

@@ -14,4 +14,5 @@ fi
 
 # Run the Ruby script
 echo "Running the Ruby script..."
+bundle
 ruby lib/questionnaire.rb
